@@ -1,33 +1,33 @@
-# project-store.github.io
-KAISH adalah platform layanan digital terpercaya yang menggabungkan Top Up Game, penjualan Jam Tangan, dan Jersey Sport Premium dalam satu website yang mudah digunakan.
-Dibuat khusus untuk anak muda yang suka game, sport, dan gaya aktif, KAISH menawarkan pengalaman belanja yang cepat, praktis, aman, dan langsung ditangani secara personal melalui WhatsApp.
+# ZALLSTORE REAL
 
-Tampilan website dibuat dengan tema hitam + merah, memberikan kesan maskulin, modern, dan energik, mencerminkan semangat kompetisi, kecepatan, dan performa.
-Website ini dirancang mobile-first, sehingga nyaman diakses melalui smartphone tanpa lag dan tanpa loading berat.
+Website marketplace modern dengan tema dark premium (hitam + merah), mobile-first, dan UX ala aplikasi.
 
-Tujuan Website KAISH
+## Fitur versi HTML/CSS/JS
+- Marketplace akun game (FF, ML, PUBG, dll) dengan status: tersedia / pending / terjual.
+- Filter akun berdasarkan game, rank, dan harga maksimum.
+- Detail akun lengkap: level, rank, skin, bind.
+- Simulasi transaksi aman + notifikasi toast.
+- Login sederhana berbasis `localStorage` dengan validasi input.
+- Dashboard user (profil masked, transaksi, akun terkait).
+- Slider iklan, section testimoni, footer profesional.
+- Bottom navbar khusus mobile (Home, Marketplace, Jasa, Akun).
 
-Mempermudah pemain game dalam melakukan Top Up dengan proses yang cepat, aman, dan harga yang bersaing.
+## Tambahan versi React
+Tersedia implementasi React terpisah di folder `react-app/`.
 
-Menyediakan jam tangan berkualitas untuk mendukung aktivitas sehari-hari maupun olahraga (running, gym, outdoor).
+### Menjalankan React app
+```bash
+cd react-app
+npm install
+npm run dev
+```
 
-Menawarkan jersey sport premium dengan desain yang stylish, nyaman dipakai, dan cocok untuk aktivitas fisik maupun fashion santai.
+### Build production React
+```bash
+cd react-app
+npm run build
+```
 
-Menjadi toko digital yang ramah dan mudah dihubungi, tanpa proses ribet.
-
-Meningkatkan kepercayaan pembeli melalui tampilan profesional dan sistem pembelian langsung via WhatsApp (manual order).
-
-Nilai Utama KAISH
-
-Cepat → Pemesanan langsung direspon
-
-Aman → Proses berurutan dan jelas
-
-Terpercaya → Tersedia testimoni asli & bukti transaksi
-
-Nyaman → Website mudah dipahami dan simpel dipakai
-
-Kalimat Slogan Singkat (bisa buat header)
-
-KAISH — Cepat, Aman, Terpercaya.
-Semangat Gaming dan Sport dalam Satu Tempat.
+## Catatan pengembangan
+- Struktur dipisah per file agar mudah maintenance.
+- Siap dikembangkan ke backend/Firebase di fase berikutnya.
